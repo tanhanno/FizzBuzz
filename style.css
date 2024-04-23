@@ -1,0 +1,49 @@
+:root {
+  --blue: #59d5e0;
+  --yellow: #f5dd61;
+  --yellow-dark: #faa300;
+  --pink: #f4538a;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  font-size: 1.2rem;
+  background-color: var(--blue);
+
+  p {
+    max-width: 50%;
+    color: darkslategrey;
+    text-shadow: 1px 1px var(--pink), -1px -1px var(--yellow);
+    font-size: 1.48rem;
+  }
+  button {
+    width: 200px;
+    font-size: 1.2rem;
+    background-color: var(--pink);
+    border: 2px solid var(--yellow-dark);
+    filter: drop-shadow(2px 2px 3px var(--pink));
+    border-radius: 5px;
+  }
+  button:hover {
+    background-color: var(--yellow-dark);
+    border-radius: 10px;
+  }
+}
+.text-center {
+  text-align: center;
+}
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.platypi {
+  font-family: "Platypi", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
